@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+title: Neural Latents Benchmark
+description: A Benchmark for Models of Neural Data
+logo: logo.svg
