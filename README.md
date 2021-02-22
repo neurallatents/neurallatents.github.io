@@ -19,3 +19,6 @@ The benchmark and its leaderboard can be submittted to indefinitely on EvalAI as
 
 #### Is NLB one benchmark or many benchmarks?
 NLB aims to regularly organize benchmark suites, a collection of tasks, datasets, and metrics around a theme in neural latent variable modeling. For example, the first benchmark suite will emphasize general population modeling.
+
+### Contact
+The Neural Latents benchmark is being led by the Systems Neural Engineering Lab in collaboration with labs across several universities. General inquiries should be directed to [Dr. Pandarinath](mailto:chethan.pandarinath@emory.edu?subject=[Neural%20Latents]).
