@@ -5,7 +5,7 @@ The Neural Latents Benchmark (NLB) aims to evaluate models of neural population 
 The first benchmark suite will consist of a collection of 3-4 datasets of neural spiking activity and a public challenge hosted on [EvalAI](https://eval.ai/). While the benchmark will be available indefinitely, the challenge will close and announce winners in Fall 2021.
 
 ### Stay in the loop!
-- For updates, please join [the mailing list](https://forms.gle/o7BejfJ2S9hqJpM28).
+- For updates, please join the mailing list by filling out [this form](https://forms.gle/o7BejfJ2S9hqJpM28).
 
 ### FAQ
 #### How do I submit a model to the benchmark?
