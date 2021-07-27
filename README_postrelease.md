@@ -1,13 +1,13 @@
 ## Overview
 
-The Unsupervised Modeling of Brain Activity (UMBrA) benchmark aims to evaluate models of neural population state. Participating models should take multi-channel spiking activity as input and produce firing rate estimates as output. **The benchmark will be released in March 2021**.
+The Unsupervised Modeling of Brain Activity (UMBrA) benchmark aims to evaluate models of neural population state. Participating models should take multi-channel spiking activity as input and produce firing rate estimates as output. **The benchmark will be released in August 2021**.
 
-In this first iteration of the benchmark, the benchmark will consist of a collection of 3-4 datasets of neural spiking activity and a public challenge hosted on [EvalAI](https://eval.ai/). While the benchmark will be available indefinitely, the challenge will close and announce winners in Fall 2021. 
+In this first iteration of the benchmark, the benchmark will consist of a collection of 3-4 datasets of neural spiking activity and a public challenge hosted on [EvalAI](https://eval.ai/). While the benchmark will be available indefinitely, the challenge will close and announce winners in Fall 2021.
 
 ### Pointers
 - For updates regarding the benchmark, please subscribe to [the mailing list](https://forms.gle/o7BejfJ2S9hqJpM28).
 
-<!-- 
+<!--
 - For details on model submission, datasets, and starter code, visit [the GitHub page](https://github.com/snel-repo/neural-data-benchmark/).
 - For general inquiries, please open a [Github issue](https://github.com/snel-repo/neural-data-benchmark/issues).
 - The forthcoming motivating paper will describe benchmark motivation and design.
@@ -16,7 +16,7 @@ In this first iteration of the benchmark, the benchmark will consist of a collec
 
 ### FAQ
 #### How do I submit a model to the benchmark?
-**Please note, the benchmark will open in March 2021.** We are hosting our challenge on [EvalAI](https://eval.ai/), a platform for evaluating AI models. On the platform, you can choose to make private or public submissions to any or all of the individual datasets. 
+**Please note, the benchmark will open in August 2021.** We are hosting our challenge on [EvalAI](https://eval.ai/), a platform for evaluating AI models. On the platform, you can choose to make private or public submissions to any or all of the individual datasets.
 
 #### Can I view the leaderboard without submitting?
 Yes, the full leaderboard will be available on this website indefinitely (courtesy of EvalAI), and EvalAI is also synced with [Papers With Code](https://paperswithcode.com/).
