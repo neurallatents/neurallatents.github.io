@@ -1,0 +1,48 @@
+<header>
+    <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+    {% if site.logo %}
+    <img src="{{site.logo | relative_url}}" alt="Logo" />
+    {% endif %}
+
+    <div style="margin-top: 0.5em;">
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        {% if site.github.is_project_page %}
+        <p>
+            <!-- Github icon -->
+            <i class="fab fa-github"></i> Follow on Github:
+            <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+        </p>
+        {% endif %}
+    </div>
+    <hr />
+
+    <div style="padding-left: 1em;">
+        <div style="padding-left: 1em; border-left: 2px solid rgb(195, 195, 195); margin-bottom: 1em;">
+            <div>
+                <a href="/">About</a>
+            </div>
+            <div>
+                <a href="/datasets">Datasets</a>
+            </div>
+            <div>
+                <a href="/challenge">NLB'21 Challenge Info</a>
+            </div>
+            <div>
+                <a href="https://github.com/neurallatents/nlb_tools">NLB'21 Codepack</a>
+            </div>
+            <div>
+                <a href="https://eval.ai">NLB'21 EvalAI</a>
+            </div>
+        </div>
+    </div>
+
+
+    {% if site.show_downloads %}
+    <ul class="downloads">
+        <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+        <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+        <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+    </ul>
+    {% endif %}
+</header>

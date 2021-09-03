@@ -1,0 +1,52 @@
+- title: MC_Maze
+  slug: mcmaze
+  image: assets/maze_fig1.png
+  dandi: "DANDI repos: [Standard](https://gui.dandiarchive.org/#/dandiset/000128), [Large](https://gui.dandiarchive.org/#/dandiset/000138), [Medium](https://gui.dandiarchive.org/#/dandiset/000139), [Small](https://gui.dandiarchive.org/#/dandiset/000140)"
+  notebook: https://github.com/neurallatents/website_draft/tree/main/dataset_demos/mc_maze.ipynb
+  text: |
+    The maze task is a delayed center-out reach task with barriers, resulting in a variety of straight and curved trajectories. Neural activity was recorded from the dorsal premotor and primary motor cortices, and cursor, monkey gaze position, and monkey hand position and velocity are also provided.
+
+
+    It has been found that M1/PMd activity during such planned, highly-stereotyped movements is well modeled as an autonomous dynamical system, making the dataset ideal for evaluating a method’s ability to capture intrinsic neural dynamics. In addition to a standard session, we provide 3 recording sessions (standard, large, medium, and small) with varying numbers of trials in order to test how modeling methods scale to limited data.
+
+
+    The 4 recording sessions we are releasing are provided by Matt Kaufman, Mark Churchland, and Krishna Shenoy at Stanford University.
+- title: MC_RTT
+  slug: mcrtt
+  image: assets/rtt_fig1.png
+  dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000129)"
+  notebook: https://github.com/neurallatents/website_draft/tree/main/dataset_demos/mc_rtt.ipynb
+  text: |
+    The random target task is a self-paced, sequential reaching task between random elements of a grid. The dataset includes neural spiking data from the primary cortex along with simultaneously recorded monkey finger position, cursor position, and target position.
+
+
+    The unique task design results in the absence of pre-movement delay periods and repeated, highly constrained reach  conditions typical of other reaching tasks. The ability to accurately model motor cortical activity during this more naturalistic behavior, and not only highly-stereotyped reaches with preparatory periods, is vital to developing effective BCI decoders and understanding the functioning of the motor cortex.
+
+
+    We are releasing a single recording session for this dataset, provided by Joseph O’Doherty from his time at University of California San Francisco.
+- title: Area2_Bump
+  slug: area2bump
+  image: assets/area2_fig1.png
+  dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000130)"
+  notebook: https://github.com/neurallatents/website_draft/tree/main/dataset_demos/area2_bump.ipynb
+  text: |
+    The bump task resembles a standard center-out reaching task, but on a portion of the trials, the monkey's arm was bumped before the reach. Neural activity was recorded from Brodmann’s area 2 of the somatosensory cortex, and the dataset also includes position, velocity, and acceleration of the monkey’s hand, force between the monkey’s hand and the manipulandum, and monkey muscle length & velocity and joint angle & velocity.
+
+
+    Area 2 is robustly driven by mechanical perturbations to the arm and has been shown to contain information about whole-arm kinematics. Thus, this dataset provides the challenge of modeling input-driven activity in response to both predictable and unpredictable sensory feedback, in contrast to the largely autonomous dynamics of the motor cortex during reaching tasks.
+
+
+    We release a single recording session for this dataset, provided by Raeed Chowdhury and Lee Miller at Northwestern.
+- title: DMFC_RSG
+  slug: dmfcrsg
+  image: assets/dmfc_fig1.png
+  dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000130)"
+  notebook: https://github.com/neurallatents/website_draft/tree/main/dataset_demos/dmfc_rsg.ipynb
+  text: |
+    The ready-set-go task is a cognitive timing task in which the subject is presented with two stimuli separated by a certain time interval and attempts to perform a specified action exactly one time interval after the second stimulus. Neural activity was recorded from the dorsomedial frontal cortex, which is associated with higher-level functions like motor control and timing.
+
+
+    Unlike the motor cortex or somatosensory cortex, which are primarily driven by either internal dynamics or inputs, activity in the DMFC is strongly dependent on both and is involved in complex tasks that do not have clear moment-by-moment external behavioral correlates. As a result, the DMFC_RSG dataset presents unique challenges in both modeling this complex activity and evaluating the resulting predictions.
+
+
+    We are releasing a single recording session for this dataset, provided by Hansem Sohn and Mehrdad Jazayeri at MIT.
