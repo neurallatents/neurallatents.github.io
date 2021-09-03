@@ -2,7 +2,7 @@
   slug: mcmaze
   image: assets/maze_fig1.png
   dandi: "DANDI repos: [Standard](https://gui.dandiarchive.org/#/dandiset/000128), [Large](https://gui.dandiarchive.org/#/dandiset/000138), [Medium](https://gui.dandiarchive.org/#/dandiset/000139), [Small](https://gui.dandiarchive.org/#/dandiset/000140)"
-  notebook: https://github.com/neurallatents/website_draft/tree/main/dataset_demos/mc_maze.ipynb
+  notebook: https://github.com/neurallatents/neurallatents.github.io/tree/main/notebooks/mc_maze.ipynb
   text: |
     The maze task is a delayed center-out reach task with barriers, resulting in a variety of straight and curved trajectories. Neural activity was recorded from the dorsal premotor and primary motor cortices, and cursor, monkey gaze position, and monkey hand position and velocity are also provided.
 
@@ -15,7 +15,7 @@
   slug: mcrtt
   image: assets/rtt_fig1.png
   dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000129)"
-  notebook: https://github.com/neurallatents/website_draft/tree/main/dataset_demos/mc_rtt.ipynb
+  notebook: https://github.com/neurallatents/neurallatents.github.io/tree/main/notebooks/mc_rtt.ipynb
   text: |
     The random target task is a self-paced, sequential reaching task between random elements of a grid. The dataset includes neural spiking data from the primary cortex along with simultaneously recorded monkey finger position, cursor position, and target position.
 
@@ -28,7 +28,7 @@
   slug: area2bump
   image: assets/area2_fig1.png
   dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000130)"
-  notebook: https://github.com/neurallatents/website_draft/tree/main/dataset_demos/area2_bump.ipynb
+  notebook: https://github.com/neurallatents/neurallatents.github.io/tree/main/notebooks/area2_bump.ipynb
   text: |
     The bump task resembles a standard center-out reaching task, but on a portion of the trials, the monkey's arm was bumped before the reach. Neural activity was recorded from Brodmann’s area 2 of the somatosensory cortex, and the dataset also includes position, velocity, and acceleration of the monkey’s hand, force between the monkey’s hand and the manipulandum, and monkey muscle length & velocity and joint angle & velocity.
 
@@ -41,7 +41,7 @@
   slug: dmfcrsg
   image: assets/dmfc_fig1.png
   dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000130)"
-  notebook: https://github.com/neurallatents/website_draft/tree/main/dataset_demos/dmfc_rsg.ipynb
+  notebook: https://github.com/neurallatents/neurallatents.github.io/tree/main/notebooks/dmfc_rsg.ipynb
   text: |
     The ready-set-go task is a cognitive timing task in which the subject is presented with two stimuli separated by a certain time interval and attempts to perform a specified action exactly one time interval after the second stimulus. Neural activity was recorded from the dorsomedial frontal cortex, which is associated with higher-level functions like motor control and timing.
 
