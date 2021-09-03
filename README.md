@@ -1,6 +1,6 @@
-<div style="margin-bottom:1em">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o7dvFLHb5AY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<!-- <div style="margin-bottom:1em"> -->
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/o7dvFLHb5AY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<!-- </div> -->
 ## Overview
 
 The Neural Latents Benchmark (NLB) aims to evaluate models of neural population state. In the first benchmark suite, NLB 2021, participating models are evaluated on 7 datasets of neural spiking activity spanning 4 tasks and brain areas.
@@ -9,6 +9,7 @@ While the benchmark will be available indefinitely, the challenge will close ear
 
 - [Read about NLB 2021 in our technical paper](https://arxiv_link_here).
 - [Join the mailing list for updates](https://forms.gle/o7BejfJ2S9hqJpM28).
+- [See our Cosyne '21 announcement](https://www.youtube.com/watch?v=o7dvFLHb5AY).
 
 ## FAQ
 ### How do I submit a model to the benchmark?
