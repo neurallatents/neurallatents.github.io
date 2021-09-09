@@ -11,7 +11,7 @@ As part of the benchmarking effort, we are hosting a competition and offering pr
 
 ### Ranking and Prizes
 
-The challenge evaluates **co-smoothing** performance on individual datasets and across all datasets. The overall winner will be chosen by average rank across datasets. For the MC_Maze scaling datasets, each dataset session will be weighted as 1/3 of a dataset in both individual and overall ranking calculations.
+The challenge evaluates **co-smoothing** performance on 5ms bins, on individual datasets and across all datasets. The overall winner will be chosen by average rank across datasets. For the MC_Maze scaling datasets, each dataset session will be weighted as 1/3 of a dataset in both individual and overall ranking calculations.
 
 Prizes will be provided in the form of Visa gift cards.
 - A prize of 3,000 USD will be given for best average rank across tasks.
