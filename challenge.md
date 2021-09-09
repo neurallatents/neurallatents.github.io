@@ -9,19 +9,18 @@ filename: challenge.md
 As part of the benchmarking effort, we are hosting a competition and offering prizes for the best-performing submissions on the EvalAI leaderboard on the deadline of **January 7th, 2022, anywhere on Earth**.
  <!-- and will be funded by the SNEL Lab at Emory. -->
 
-### Ranking
+### Ranking and Prizes
 
-We will determine prize winners for both individual datasets and overall performance across all datasets. The overall winner will be chosen by averaging rankings across datasets. For the MC_Maze scaling datasets, each dataset session will be weighted as 1/3 of a dataset in both individual and overall ranking calculations.
+The challenge evaluates **co-smoothing** performance on individual datasets and across all datasets. The overall winner will be chosen by average rank across datasets. For the MC_Maze scaling datasets, each dataset session will be weighted as 1/3 of a dataset in both individual and overall ranking calculations.
 
-### Prizes
-
-Prizes will be provided in the form of Visa gift cards. The exact amount will be released shortly.
-<!-- The prize winnings are: -->
-<!-- * Individual datasets: $1000 -->
-<!-- * Overall performance: $3000 -->
+Prizes will be provided in the form of Visa gift cards.
+- A prize of 3,000 USD will be given for best average rank across tasks.
+- A prize of 1,000 USD will be given for best rank on each individual task (and best average rank on 3 scaling datasets).
 
 ### Eligibility
 
-To be considered for challenge prizes, teams *must* share their code and scripts to reproduce their results with us. This is necessary to ensure that prizes are fairly awarded. We further recommend participants to publicly share their code to help promote progress in the field.
+To be considered for challenge prizes, teams must submit their methods to the EvalAI challenge before the deadline. After the deadline, we will notify top contenders of their tentative rankings. We reserve the right to have participants share their code and scripts to reproduce their results with us, so that we can validate submission fairness. After this validation phase, we will announce the winners.
 
-<!-- Unfortunately, we are unable to provide monetary prizes to people living in North Korea, Afghanistan, and Antarctica. While we would like any interested individuals to participate in the benchmark, they will not be eligible to win any challenge prizes. -->
+In general, we recommend participants to publicly share their code to help promote progress in the field.
+
+
