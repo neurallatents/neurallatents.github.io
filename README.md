@@ -3,9 +3,10 @@
 <!-- </div> -->
 ## Overview
 
-The Neural Latents Benchmark (NLB) aims to evaluate models of neural population state. In the first benchmark suite, NLB 2021, participating models are evaluated on 7 datasets of neural spiking activity spanning 4 tasks and brain areas.
+Advances in neural recording present increasing opportunities to study neural activity in unprecedented detail. Latent variable models (LVMs) are promising tools for analyzing this rich activity across diverse neural systems and behaviors, as LVMs do not depend on known relationships between the activity and external
+experimental variables. However, progress in latent variable modeling is currently impeded by a lack of standardization, resulting in methods being developed and compared in an ad hoc manner. To coordinate these modeling efforts, we introduce the Neural Latents Benchmark (NLB). In the first benchmark suite, NLB 2021, participating models are evaluated on 7 datasets of neural spiking activity spanning 4 tasks and brain areas.
 <!-- Models should take multi-channel spiking activity as input and produce firing rate estimates as output. Rate estimates should then be submitted to the public challenge hosted on [EvalAI](https://eval.ai/).  -->
-While the benchmark will be available indefinitely, the challenge will close early January 2022. To get started with the challenge, follow the links on the left.
+While the benchmark will be available indefinitely, the challenge will close January 7, 2022. To get started with the challenge, follow the links on the left.
 
 - [Read about NLB 2021 in our technical paper](https://arxiv_link_here).
 - [Join the mailing list for updates](https://forms.gle/o7BejfJ2S9hqJpM28).

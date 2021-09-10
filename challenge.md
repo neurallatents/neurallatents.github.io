@@ -20,6 +20,7 @@ Prizes will be provided in the form of Visa gift cards.
 ### Eligibility
 
 To be considered for challenge prizes, teams must submit their methods to the EvalAI challenge before the deadline *and* commit to releasing code for reproducibility. This commitment means that, after the deadline, top contenders will be notified to share their code with the NLB team so that we can validate their submissions, and moreover, that this code must be open-sourced before we transfer funds.
+Note that NLB organizer baseline methods are ineligible for prizes.
 
 In general, we recommend participants to publicly share their code to help promote progress in the field.
 
