@@ -10,6 +10,7 @@ While the benchmark will be available indefinitely, the challenge will close ear
 - [Read about NLB 2021 in our technical paper](http://arxiv.org/abs/2109.04463).
 - [Join the mailing list for updates](https://forms.gle/o7BejfJ2S9hqJpM28).
 - [See our Cosyne '21 announcement](https://www.youtube.com/watch?v=o7dvFLHb5AY).
+- [Join our Slack workspace](https://neurallatents.slack.com). Please email `fpei6 [at] gatech [dot] edu` for an invite link.
 
 ## FAQ
 ### How do I submit a model to the benchmark?
