@@ -43,7 +43,7 @@
   dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000130)"
   notebook: https://github.com/neurallatents/neurallatents.github.io/tree/master/notebooks/dmfc_rsg.ipynb
   text: |
-    The ready-set-go task is a cognitive timing task in which the subject is presented with two stimuli separated by a certain time interval and attempts to perform a specified action exactly one time interval after the second stimulus. Neural activity was recorded from the dorsomedial frontal cortex, which is associated with higher-level functions like motor control and timing.
+    The ready-set-go task is a cognitive timing task in which the subject is presented with two stimuli (Ready followed by Set) separated by a certain time interval. The subject then attempts to perform an action (Go) such that the interval between Set and Go matches the interval between Ready and Set. Neural activity was recorded from the dorsomedial frontal cortex, which is associated with higher-level functions like motor control and timing.
 
 
     Unlike the motor cortex or somatosensory cortex, which are primarily driven by either internal dynamics or inputs, activity in the DMFC is strongly dependent on both and is involved in complex tasks that do not have clear moment-by-moment external behavioral correlates. As a result, the DMFC_RSG dataset presents unique challenges in both modeling this complex activity and evaluating the resulting predictions.
