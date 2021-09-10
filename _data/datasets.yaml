@@ -7,7 +7,7 @@
     The maze task is a delayed center-out reach task with barriers, resulting in a variety of straight and curved trajectories. Neural activity was recorded from the dorsal premotor and primary motor cortices, and cursor, monkey gaze position, and monkey hand position and velocity are also provided.
 
 
-    It has been found that M1/PMd activity during such planned, highly-stereotyped movements is predictable from neural population state at movement onset, which makes the dataset useful for evaluating a method’s ability to model autonomous systems. In addition to a standard session, we provide 3 recording sessions (standard, large, medium, and small) with varying numbers of trials in order to test how modeling methods scale to limited data.
+    It has been found that M1/PMd activity during such planned, highly-stereotyped movements is predictable from neural population state at movement onset. Though this does not imply the neural system is itself autonomous, predictability makes the dataset useful for evaluating a method’s ability to model autonomous dynamics. In addition to a standard session, we provide 3 recording sessions (standard, large, medium, and small) with varying numbers of trials in order to test how modeling methods scale to limited data.
 
 
     The 4 recording sessions we are releasing are provided by Matt Kaufman, Mark Churchland, and Krishna Shenoy at Stanford University.
