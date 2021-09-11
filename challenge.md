@@ -11,11 +11,12 @@ As part of the benchmarking effort, we are hosting a competition and offering pr
 
 ### Ranking and Prizes
 
-The challenge evaluates **co-smoothing** performance on 5ms bins, on individual datasets and across all datasets. The overall winner will be chosen by average rank across datasets. For the MC_Maze scaling datasets, each dataset session will be weighted as 1/3 of a dataset in both individual and overall ranking calculations.
+The challenge evaluates **co-smoothing** performance on 5ms bins, on individual datasets and across all datasets. There are four primary datasets: `MC_Maze`, `MC_RTT`, `Area2_Bump`, `DMFC_RSG`, and three scaling datasets: `MC_Maze-Large`, `MC_Maze-Medium`, `MC_Maze-Small`. The prizes are allotted as follows:
 
+- A prize of 3,000 USD will be given for best average rank across `MC_Maze`, `MC_RTT`, `Area2_Bump`, and `DMFC_RSG`.
+- A prize of 1,000 USD will be given for best rank on each of the above challenges
+- A prize of 1,000 USD will be given for best average rank on `MC_Maze-Large`, `MC_Maze-Medium`, and `MC_Maze-Small`.
 Prizes will be provided in the form of Visa gift cards.
-- A prize of 3,000 USD will be given for best average rank across tasks.
-- A prize of 1,000 USD will be given for best rank on each individual task (and best average rank on 3 scaling datasets).
 
 ### Eligibility
 
