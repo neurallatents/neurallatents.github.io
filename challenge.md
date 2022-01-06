@@ -6,7 +6,7 @@ filename: challenge.md
 
 ## Challenge Guidelines
 
-As part of the benchmarking effort, we are hosting a competition and offering prizes for the best-performing submissions on the EvalAI leaderboard on the deadline of **January 7th, 2022, anywhere on Earth**.
+As part of the benchmarking effort, we are hosting a competition and offering prizes for the best-performing submissions on the EvalAI leaderboard on the deadline of **January 7th, 2022, anywhere on Earth** (i.e. 23:59 January 7th UTC-12).
  <!-- and will be funded by the SNEL Lab at Emory. -->
 
 ### Ranking and Prizes
