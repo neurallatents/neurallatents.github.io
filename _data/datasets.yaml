@@ -27,7 +27,7 @@
 - title: Area2_Bump
   slug: area2bump
   image: assets/area2_fig1.png
-  dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000130)"
+  dandi: "[DANDI repo](https://gui.dandiarchive.org/#/dandiset/000127)"
   notebook: https://github.com/neurallatents/neurallatents.github.io/tree/master/notebooks/area2_bump.ipynb
   text: |
     The bump task resembles a standard center-out reaching task, but on a portion of the trials, the monkey's arm was bumped before the reach. Neural activity was recorded from Brodmann’s area 2 of the somatosensory cortex, and the dataset also includes position, velocity, and acceleration of the monkey’s hand, force between the monkey’s hand and the manipulandum, and monkey muscle length & velocity and joint angle & velocity.
