@@ -6,7 +6,7 @@ filename: challenge.md
 
 ## Challenge Guidelines
 
-As part of the benchmarking effort, we are hosting a competition and offering prizes for the best-performing submissions on the EvalAI leaderboard on the deadline of **January 7th, 2022, anywhere on Earth** (i.e. 23:59 January 7th UTC-12).
+As part of the benchmarking effort, we are hosting a competition and offering prizes for the best-performing submissions on the EvalAI leaderboard. Phase 1 of the challenge ended on 1/7/2022, won by [AE Studio](https://ae.studio/). Phase 2 of the challenge is ongoing, and will end on  **April 3rd, 2022, anywhere on Earth** (i.e. 23:59 April 3rd UTC-12). Phase 2 is graciously funded by AE Studio.
  <!-- and will be funded by the SNEL Lab at Emory. -->
 
 ### Ranking and Prizes
