@@ -16,7 +16,7 @@ While the benchmark will be available indefinitely, the challenge (phase 2) will
 - [Join our Slack workspace](https://neurallatents.slack.com). Please email `fpei6 [at] gatech [dot] edu` for an invite link.
 
 ## NLB 2021, Phase 2: Calling all models!
-Phase 1 of our challenge was won by [AE Studio](https://ae.studio/); their writeup will be online shortly. Their team comprised Darin Erat Sleiter, Joshua Schoenfield, and Mike Vaiana; the team additionally thanks Sumner L Norman for his guidance and advice in the areas of neuroscience and neural decoding.
+Phase 1 of our challenge was won by [AE Studio](https://ae.studio/); their writeup will be online shortly, but their [code is available here](https://github.com/agencyenterprise/ae-nlb-2021). Their team comprised Darin Erat Sleiter, Joshua Schoenfield, and Mike Vaiana; the team additionally thanks Sumner L Norman for his guidance and advice in the areas of neuroscience and neural decoding.
 
 The challenge continues into phase 2 with two updates:
 - **Workshop on 2/27**: We will host a virtual workshop consisting of several presentations on developing neural data models and an open-hacking period where participants are invited to hang out and get feedback from others. [RSVP here](https://forms.gle/YqWfqngaTiGuH7AA8).
