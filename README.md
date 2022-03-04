@@ -39,5 +39,17 @@ The benchmark and its leaderboard can be submitted to indefinitely on EvalAI as 
 ### Is NLB one benchmark or many benchmarks?
 NLB aims to regularly organize benchmark suites, a collection of tasks, datasets, and metrics around a theme in neural latent variable modeling. For example, NLB'21 will emphasize general population modeling.
 
+## Citation
+If you use the Neural Latents Benchmark in your work, please cite our NeurIPS paper:
+```
+@inproceedings{PeiYe2021NeuralLatents,
+  title={Neural Latents Benchmark '21: Evaluating latent variable models of neural population activity},
+  author={Felix Pei and Joel Ye and David M. Zoltowski and Anqi Wu and Raeed H. Chowdhury and Hansem Sohn and Joseph E. O’Doherty and Krishna V. Shenoy and Matthew T. Kaufman and Mark Churchland and Mehrdad Jazayeri and Lee E. Miller and Jonathan Pillow and Il Memming Park and Eva L. Dyer and Chethan Pandarinath},
+  booktitle={Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
+  year={2021},
+  url={https://arxiv.org/abs/2109.04463}
+}
+```
+
 ## Contact
 The Neural Latents Benchmark is being led by the Systems Neural Engineering Lab in collaboration with labs across several universities. General inquiries should be directed to [Dr. Pandarinath] at `chethan [at] gatech [dot] edu`.
