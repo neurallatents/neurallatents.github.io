@@ -45,7 +45,7 @@ If you use the Neural Latents Benchmark in your work, please cite our NeurIPS pa
 @inproceedings{PeiYe2021NeuralLatents,
   title={Neural Latents Benchmark '21: Evaluating latent variable models of neural population activity},
   author={Felix Pei and Joel Ye and David M. Zoltowski and Anqi Wu and Raeed H. Chowdhury and Hansem Sohn and Joseph E. O’Doherty and Krishna V. Shenoy and Matthew T. Kaufman and Mark Churchland and Mehrdad Jazayeri and Lee E. Miller and Jonathan Pillow and Il Memming Park and Eva L. Dyer and Chethan Pandarinath},
-  booktitle={Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS), Track on Datasets and Benchmarks},
   year={2021},
   url={https://arxiv.org/abs/2109.04463}
 }
