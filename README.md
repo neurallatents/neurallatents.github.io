@@ -15,11 +15,18 @@ While the benchmark will be available indefinitely, the challenge (phase 2) will
 - [See our Cosyne '21 announcement](https://www.youtube.com/watch?v=o7dvFLHb5AY).
 - [Join our Slack workspace](https://neurallatents.slack.com). Please email `fpei6 [at] gatech [dot] edu` for an invite link.
 
+## NLB Virtual Workshop
+We hosted a virtual workshop on 2/27 featuring of several presentations on the benchmark and on developing neural data models. These included talks about:
+- Motivations behind the benchmark and how to participate
+- nlb-lightning, a PyTorch lightning framework to facilitate development for NLB 2021
+- Leading submissions and baselines, such as AESMTE3 (AEStudio), iLQR-VAE (Marine Schimel), and MINT (Sean Perkins)
+
+The materials from the workshop are available [here](https://github.com/neurallatents/nlb_workshop).
+
 ## NLB 2021, Phase 2: Calling all models!
 Phase 1 of our challenge was won by [AE Studio](https://ae.studio/); their writeup will be online shortly, but their [code is available here](https://github.com/agencyenterprise/ae-nlb-2021). Their team comprised Darin Erat Sleiter, Joshua Schoenfield, and Mike Vaiana; the team additionally thanks Sumner L Norman for his guidance and advice in the areas of neuroscience and neural decoding.
 
-The challenge continues into phase 2 with two updates:
-- **Workshop on 2/27**: We will host a virtual workshop consisting of several presentations on developing neural data models and an open-hacking period where participants are invited to hang out and get feedback from others. [RSVP here](https://forms.gle/YqWfqngaTiGuH7AA8).
+The challenge continues into phase 2 with an update to the prizes:
 - **New Judge's choice prize**: We have revised the prize structure for Phase 2. In addition to the co-smoothing prizes for each dataset, we have added 3 prizes for models selected by an external panel of judges to promote qualitative interpretability and useability. The specific judging criteria will be posted in the [challenge info](/challenge).
 
 **Motivation**: The Neural Latents effort is unique among machine learning benchmarks in that the downstream use of these models clearly depends on more than the measured metrics. Therefore, we wish to allow for a more qualitative evaluation of each model for their relative merits, and encourage the submission of all models. For example, there is no consensus manner in which to measure model interpretability, but such interpretability is key when using LVMs to infer the computational function of the modeled activity. We want to discourage instances where developers keep potentially valuable models private because the model doesn't recapitulate the data as perfectly as a powerful black-box approach. One of our primary goals as a benchmark is to populate an "accuracy-interpretability" paretofront. Highlighting such a set of models would provide a variety of downstream users with the model best matched to their requirements, at all levels of analysis. The judge's choice prize is a first effort towards this concept.
