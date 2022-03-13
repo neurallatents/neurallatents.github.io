@@ -16,12 +16,10 @@ While the benchmark will be available indefinitely, the challenge (phase 2) will
 - [Join our Slack workspace](https://neurallatents.slack.com). Please email `fpei6 [at] gatech [dot] edu` for an invite link.
 
 ## NLB Virtual Workshop
-We hosted a virtual workshop on 2/27 featuring of several presentations on the benchmark and on developing neural data models. These included talks about:
+We hosted a virtual workshop on 2/27, and **all materials from the workshop are available [here](https://github.com/neurallatents/nlb_workshop)**. The workshop featured several presentations on the benchmark and on developing neural data models, including talks about:
 - Motivations behind the benchmark and how to participate
 - nlb-lightning, a PyTorch lightning framework to facilitate development for NLB 2021
 - Leading submissions and baselines, such as AESMTE3 (AEStudio), iLQR-VAE (Marine Schimel), and MINT (Sean Perkins)
-
-The materials from the workshop are available [here](https://github.com/neurallatents/nlb_workshop).
 
 ## NLB 2021, Phase 2: Calling all models!
 Phase 1 of our challenge was won by [AE Studio](https://ae.studio/); their writeup will be online shortly, but their [code is available here](https://github.com/agencyenterprise/ae-nlb-2021). Their team comprised Darin Erat Sleiter, Joshua Schoenfield, and Mike Vaiana; the team additionally thanks Sumner L Norman for his guidance and advice in the areas of neuroscience and neural decoding.
