@@ -11,6 +11,9 @@
 
 
     The 4 recording sessions we are releasing are provided by Matt Kaufman, Mark Churchland, and Krishna Shenoy at Stanford University.
+    
+    
+    **Note:** To determine whether a given unit was recorded from PMd or M1, you can use the first digit of the unit ID: for units recorded from PMd, the leading digit is 1, while for units recorded from M1, the leading digit is 2. Due to an error in the dataset conversion process, the electrode indices for units from M1 are incorrect, but you can determine the correct indices by adding 96 to each of the incorrect indices.
 - title: MC_RTT
   slug: mcrtt
   image: assets/rtt_fig1.png
