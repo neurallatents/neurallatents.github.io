@@ -16,7 +16,7 @@ experimental variables. To coordinate LVM modeling efforts, we introduce the Neu
 
 ## EvalAI submissions closed as of January 2026
 We have been extremely grateful to see community engagement with our benchmark through two competition phases and continuing use of the benchmark ever since. 
-Over 4+ years, NLB'21 has received hundreds of submissions and have been used to evaluate many innovative, state-of-the-art modeling methods. 
+Over 4+ years, NLB'21 has received hundreds of submissions and has been used to evaluate many innovative, state-of-the-art modeling methods. 
 Unfortunately, we are unable to continue hosting our challenge on EvalAI. 
 To our understanding, the leaderboard will remain visible in its current state, but new submission will no longer be accepted.
 
