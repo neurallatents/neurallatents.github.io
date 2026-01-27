@@ -8,41 +8,39 @@ experimental variables. To coordinate LVM modeling efforts, we introduce the Neu
 
  <!-- However, progress in latent variable modeling is currently impeded by a lack of standardization, resulting in methods being developed and compared in an ad hoc manner. -->
 <!-- Models should take multi-channel spiking activity as input and produce firing rate estimates as output. Rate estimates should then be submitted to the public challenge hosted on [EvalAI](https://eval.ai/).  -->
-While the benchmark will be available indefinitely, the challenge (phase 2) will close April 3, 2022. To get started with the challenge, follow the links on the left.
 
-- [Read about NLB 2021 in our technical paper](http://arxiv.org/abs/2109.04463).
-- [Join the mailing list for updates](https://forms.gle/o7BejfJ2S9hqJpM28).
-- [See our Cosyne '21 announcement](https://www.youtube.com/watch?v=o7dvFLHb5AY).
-- [Join our Slack workspace](https://neurallatents.slack.com). Please email `fpei6 [at] gatech [dot] edu` for an invite link.
+- [Read about NLB 2021 in our technical paper](http://arxiv.org/abs/2109.04463)
+- [Get started using NLB 2021 with our codepack](https://github.com/neurallatents/nlb_tools)
+- [See past submissions on EvalAI](https://eval.ai/web/challenges/challenge-page/1256/leaderboard)
+- [Join our Slack workspace](https://neurallatents.slack.com). Please email `fpei6 [at] gatech [dot] edu` for an invite link
+
+## EvalAI submissions closed as of January 2026
+We have been extremely grateful to see community engagement with our benchmark through two competition phases and continuing use of the benchmark ever since. 
+Over 4+ years, NLB'21 has received hundreds of submissions and have been used to evaluate many innovative, state-of-the-art modeling methods. 
+Unfortunately, we are unable to continue hosting our challenge on EvalAI. 
+To our understanding, the leaderboard will remain visible in its current state, but new submission will no longer be accepted.
+
+In response, we are publishing the previously-private evaluation data for the benchmark test split. The data are available in our [GitHub repo](https://github.com/neurallatents/nlb_tools) and can be used to run local model evaluation.
+
+We note that this change will make it easier to overfit to the test split. Previously, submissions on EvalAI were rate-limited, discouraging this strategy (and we did not observe this from any groups that submitted to the benchmark). However, we hope that the ease of evaluation will instead encourage transparency in reporting model performance, for example by reporting scores across multiple random seeds.
 
 ## NLB Virtual Workshop
-We hosted a virtual workshop on 2/27, and **all materials from the workshop are available [here](https://github.com/neurallatents/nlb_workshop)**. The workshop featured several presentations on the benchmark and on developing neural data models, including talks about:
+We hosted a virtual workshop on 2/27/2022, and **all materials from the workshop are available [here](https://github.com/neurallatents/nlb_workshop)**. The workshop featured several presentations on the benchmark and on developing neural data models, including talks about:
 - Motivations behind the benchmark and how to participate
 - nlb-lightning, a PyTorch lightning framework to facilitate development for NLB 2021
 - Leading submissions and baselines, such as AESMTE3 (AEStudio), iLQR-VAE (Marine Schimel), and MINT (Sean Perkins)
-
-## NLB 2021, Phase 2: Calling all models!
-Phase 1 of our challenge was won by [AE Studio](https://ae.studio/); their writeup will be online shortly, but their [code is available here](https://github.com/agencyenterprise/ae-nlb-2021). Their team comprised Darin Erat Sleiter, Joshua Schoenfield, and Mike Vaiana; the team additionally thanks Sumner L Norman for his guidance and advice in the areas of neuroscience and neural decoding.
-
-The challenge continues into phase 2 with an update to the prizes:
-- **New Judge's choice prize**: We have revised the prize structure for Phase 2. In addition to the co-smoothing prizes for each dataset, we have added 3 prizes for models selected by an external panel of judges to promote qualitative interpretability and useability. The specific judging criteria will be posted in the [challenge info](/challenge).
-
-**Motivation**: The Neural Latents effort is unique among machine learning benchmarks in that the downstream use of these models clearly depends on more than the measured metrics. Therefore, we wish to allow for a more qualitative evaluation of each model for their relative merits, and encourage the submission of all models. For example, there is no consensus manner in which to measure model interpretability, but such interpretability is key when using LVMs to infer the computational function of the modeled activity. We want to discourage instances where developers keep potentially valuable models private because the model doesn't recapitulate the data as perfectly as a powerful black-box approach. One of our primary goals as a benchmark is to populate an "accuracy-interpretability" paretofront. Highlighting such a set of models would provide a variety of downstream users with the model best matched to their requirements, at all levels of analysis. The judge's choice prize is a first effort towards this concept.
 
 ---
 
 ## FAQ
 ### How do I submit a model to the benchmark?
-We are hosting our challenge on [EvalAI](https://eval.ai/web/challenges/challenge-page/1256/overview), a platform for evaluating machine learning models. On the platform, you can choose to make private or public submissions to any or all of the individual datasets.
+As of January 2026, our challenge on EvalAI is no longer accepting submissions. Instead, you can evaluate your model locally with the test data available in [GitHub repo](https://github.com/neurallatents/nlb_tools). Unfortunately, it will not be possible to display new models on the public EvalAI leaderboard.
 
 ### Can I view the leaderboard without submitting?
 Yes, the full leaderboard will be available on [EvalAI](https://eval.ai/web/challenges/challenge-page/1256/leaderboard), and EvalAI is also synced with [Papers With Code](https://paperswithcode.com/). Model open-sourcing is encouraged and thus may be available through the leaderboard.
 
-### Is there a deadline?
-The benchmark and its leaderboard can be submitted to indefinitely on EvalAI as a resource for the community. Phase 2 of the challenge, which rewards top entries with prizes, will end on April 3rd, 2022.
-
 ### Is NLB one benchmark or many benchmarks?
-NLB aims to regularly organize benchmark suites, a collection of tasks, datasets, and metrics around a theme in neural latent variable modeling. For example, NLB'21 will emphasize general population modeling.
+NLB was originally intended to grow into a collection of benchmarks on neural latent variable modeling. Since NLB'21, members of our group have developed related benchmarks, including [FALCON](https://www.biorxiv.org/content/10.1101/2024.09.15.613126v1) (Karpowicz, Ye, et al. 2024) for robust, long-term neural decoding and the [Computation-thru-Dynamics Benchmark](https://www.biorxiv.org/content/10.1101/2025.02.07.637062v1) (Versteeg et al. 2025) for evaluation of neural dynamical models.
 
 ## Citation
 If you use the Neural Latents Benchmark in your work, please cite our NeurIPS paper:
